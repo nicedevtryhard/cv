@@ -734,6 +734,12 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  .js-text {
+    display: none;
+  }
+  .js-text__short {
+    display: block;
+  }
 }
 @media screen and (max-width: 655px) {
   main {
@@ -744,12 +750,6 @@ footer {
   }
   .skills {
     width: 390px;
-  }
-  .js-text {
-    display: none;
-  }
-  .js-text__short {
-    display: block;
   }
 }
 @media screen and (max-width: 545px) {
